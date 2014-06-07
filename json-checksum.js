@@ -20,7 +20,7 @@
 	}
 
 	/*
-	 * JSON2 implement form "https://raw.githubusercontent.com/douglascrockford/JSON-js/master/json2.js"
+	 * JSON2 implement from "https://raw.githubusercontent.com/douglascrockford/JSON-js/master/json2.js"
 	 *
 	 * */
 
