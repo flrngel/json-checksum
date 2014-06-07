@@ -29,6 +29,8 @@ wild front
 - there's no checksum plugin.. :-(
 - these two JSON-object below, is different
 
+
+
 	{
 		"a": "aaaaa",
 		"b": "bbbbb"
@@ -45,7 +47,7 @@ I sorted it
 
 ### Why SHA256
 
-Because I want it.
+Because I want it. need other? fork yourself.
 
 ## Note
 
