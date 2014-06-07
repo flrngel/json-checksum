@@ -26,10 +26,7 @@ wild front
 
 ### Why JSON-checksum is useful?
 
-- there's no checksum plugin.. :-(
-- these two JSON-object below, is different
-
-
+these two JSON-object below, is different
 
 	{
 		"a": "aaaaa",
@@ -41,7 +38,7 @@ wild front
 		"a": "aaaaa"
 	}
 
-### So?
+#### So?
 
 I sorted it
 
