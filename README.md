@@ -1,32 +1,33 @@
-# JSON-hash
+# JSON-checksum
 
-hash your json to sha256
+calculate your json object checksum (supports: SHA256)
 
 ## USAGE
 
 node.js
 
-	npm install json-hash
+	npm install json-checksum
 
 amd
 
-	require(["json-hash"],function(hash){})
+	require(["json-checksum"],function(checksum){})
 
 wild front
 
-	<script src="json-hash.js"></script>
+	<script src="json-checksum.js"></script>
 
 	<script>
 		var obj={
 			"i": "am sleepy"
 		};
-		var hashed=hash(obj);
-		console.log(obj);
+		var checksum=checksum(obj);
+		console.log(checksum);
 	</script>
 
-### Why JSON-hash
+### Why JSON-checksum is useful?
 
-hashing these two JSON-object below, is different
+- there's no checksum plugin.. :-(
+- these two JSON-object below, is different
 
 	{
 		"a": "aaaaa",
@@ -40,13 +41,15 @@ hashing these two JSON-object below, is different
 
 ### So?
 
-sort it
+I sorted it
 
 ### Why SHA256
 
 Because I want it.
 
-### W
+## Note
+
+test yourself. works for me.
 
 # License
 

@@ -82,7 +82,7 @@ d[e>>>5]|=128<<24-e%32;d[(e+64>>>9<<4)+14]=h.floor(b/4294967296);d[(e+64>>>9<<4)
 	}
 
 	/*
-	 * json-hash core function
+	 * json-checksum core function
 	 *
 	 * */
 
@@ -110,8 +110,8 @@ d[e>>>5]|=128<<24-e%32;d[(e+64>>>9<<4)+14]=h.floor(b/4294967296);d[(e+64>>>9<<4)
 		 * AMD implement
 		 *
 		 * */
-		define("json-diet",[],def);
+		define("json-checksum",[],def);
 	}else{
-		_this.diet=def;
+		_this.checksum=def;
 	}
 })();

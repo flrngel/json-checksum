@@ -1,20 +1,20 @@
 {
-  "name": "json-hash",
+  "name": "json-checksum",
   "version": "0.1.0",
-  "description": "one way crypto ticket to hongkong",
+  "description": "one way checksum ticket to hongkong",
   "scripts": {
-    "test": "node test.js && jshint json-hash.js test.js"
+    "test": "node test.js && jshint json-checksum.js test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/flrngel/json-hash"
+    "url": "https://github.com/flrngel/json-checksum"
   },
   "author": "flrngel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flrngel/json-hash/issues"
+    "url": "https://github.com/flrngel/json-checksum/issues"
   },
-  "homepage": "https://github.com/flrngel/json-hash",
+  "homepage": "https://github.com/flrngel/json-checksum",
   "devDependencies": {
     "jshint": "^2.5.1",
     "json-diet": "^0.1.3",

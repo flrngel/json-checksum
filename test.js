@@ -1,5 +1,5 @@
 var test=require ("tape");
-var hash=require("./json-hash");
+var checksum=require("./json-checksum");
 var assert=require("assert");
 
 test("basic functions test",function(assert){
@@ -11,10 +11,10 @@ test("basic functions test",function(assert){
 		"b": "2"
 	});
 
-	assert.deepEqual(hash({
+	assert.deepEqual(checksum({
 		"b": "2",
 		"a": "1"
-	}),hash({
+	}),checksum({
 		"a": "1",
 		"b": "2"
 	}));
