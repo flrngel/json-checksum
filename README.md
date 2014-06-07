@@ -1,5 +1,7 @@
 # JSON-checksum
 
+![Travis](https://travis-ci.org/flrngel/json-diet.svg?branch=master)
+
 calculate your json object checksum (supports: SHA256)
 
 ## USAGE
