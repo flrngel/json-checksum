@@ -1,7 +1,8 @@
 {
   "name": "json-checksum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "one way checksum ticket to hongkong",
+	"main": "json-checksum.js",
   "scripts": {
     "test": "node test.js && jshint json-checksum.js test.js"
   },
