@@ -63,6 +63,9 @@ d[e>>>5]|=128<<24-e%32;d[(e+64>>>9<<4)+14]=h.floor(b/4294967296);d[(e+64>>>9<<4)
 	 * */
 
 	function recursive(obj){
+		if( typeof obj !== "object" )
+			return obj;
+
 		var keys=[];
 		var ret={};
 		for(var key in obj){
@@ -89,7 +92,9 @@ d[e>>>5]|=128<<24-e%32;d[(e+64>>>9<<4)+14]=h.floor(b/4294967296);d[(e+64>>>9<<4)
 	var def=function(obj,opt){
 		options=extend(options,opt);
 		var sorted_obj=recursive(obj);
-		var str=JSON.stringify(sorted_obj);
+		var str;
+		if( typeof sorted_obj === "object" ) str=JSON.stringify(sorted_obj);
+		else str=sorted_obj;
 		return CryptoJS.SHA256(str).toString(CryptoJS.enc.Hex);
 	};
 
