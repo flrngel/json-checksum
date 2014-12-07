@@ -72,7 +72,7 @@ d[e>>>5]|=128<<24-e%32;d[(e+64>>>9<<4)+14]=h.floor(b/4294967296);d[(e+64>>>9<<4)
 			if( obj.hasOwnProperty(key) === false ) continue;
 			keys.push(key);
 			if( typeof obj[key] === "object" ){
-				obj[key]=recursive(obj);
+				obj[key]=recursive(obj[key]);
 			}
 		}
 
